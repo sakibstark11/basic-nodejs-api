@@ -1,0 +1,22 @@
+{
+  "name": "basic_node_api",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "jest"
+  },
+  "dependencies": {
+    "core-js": "^3.16.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "regenerator-runtime": "^0.13.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/node": "^7.14.9",
+    "@babel/preset-env": "^7.15.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "jest": "^27.0.6",
+    "supertest": "^6.1.4"
+  }
+}
